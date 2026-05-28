@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "564fba56-04d3-4379-bb7f-aaaa5837ad26")
+	(paper "B")
+	(title_block
+		(title "LCD DevBoard")
+		(date "2026-05-27")
+		(rev "0.0.1")
+		(company "BlueFox Electronics")
+		(comment 1 "Drawn: Ryan Haugstad")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,153 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "62b60f62-2f94-4785-a386-1becb3f82c7d")
+	(paper "A")
+	(title_block
+		(title "LCD DevBoard")
+		(date "2026-05-27")
+		(rev "0.0.1")
+		(company "BlueFox Electronics")
+		(comment 1 "Drawn: Ryan Haugstad")
+		(comment 2 "Container for subsheets")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 101.6 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab4c7c7d-a171-4841-b63a-3f82cac3161c")
+		(property "Sheetname" "MCU_LCD"
+			(at 25.4 24.6884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_lcd.kicad_sch"
+			(at 25.4 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCD-DevBoard"
+				(path "/62b60f62-2f94-4785-a386-1becb3f82c7d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 101.6 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9dce959-550e-426f-8f30-f608bce5707e")
+		(property "Sheetname" "Power_Supply"
+			(at 152.4 24.6884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 152.4 102.1846 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCD-DevBoard"
+				(path "/62b60f62-2f94-4785-a386-1becb3f82c7d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 114.3)
+		(size 101.6 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d964b3e1-7344-48da-8e13-65bc11d2c903")
+		(property "Sheetname" "Peripherals"
+			(at 25.4 113.5884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 25.4 191.0846 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LCD-DevBoard"
+				(path "/62b60f62-2f94-4785-a386-1becb3f82c7d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
