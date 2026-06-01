@@ -41,6 +41,7 @@
 		)
 		(property "Sheetfile" "mcu_lcd.kicad_sch"
 			(at 25.4 102.1846 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
