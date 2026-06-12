@@ -3312,6 +3312,12 @@
 		(uuid "9040c012-79bd-4cb4-a78e-9d400186456f")
 	)
 	(junction
+		(at 44.45 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9438695e-e9f4-421b-af46-d7662a37cc23")
+	)
+	(junction
 		(at 260.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3400,10 +3406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5ac0b11-d390-4ba1-b8a3-8458f39cdff0")
-	)
-	(no_connect
-		(at 40.64 78.74)
-		(uuid "0deec6b4-dea8-4633-8238-deb8a87fba03")
 	)
 	(wire
 		(pts
@@ -3517,6 +3519,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 78.74) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18be2813-b36c-4eb8-bcfe-289649ad1b0a")
+	)
+	(wire
+		(pts
 			(xy 273.05 40.64) (xy 279.4 40.64)
 		)
 		(stroke
@@ -3604,6 +3616,16 @@
 			(type default)
 		)
 		(uuid "2b67780d-2b4b-4704-90d3-8e36c4d7a3f4")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcd909d-e024-4b0e-aac0-d72d0a37a580")
 	)
 	(wire
 		(pts
@@ -4157,6 +4179,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9922663b-a22c-4276-8b2a-329ce18f5682")
+	)
+	(wire
+		(pts
 			(xy 220.98 44.45) (xy 223.52 44.45)
 		)
 		(stroke
@@ -4517,6 +4549,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 80.01) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf2be0f-94ee-4e6d-acc0-298ac10f4d1f")
+	)
+	(wire
+		(pts
 			(xy 260.35 40.64) (xy 260.35 43.18)
 		)
 		(stroke
@@ -4617,7 +4659,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 78.74) (xy 48.26 81.28)
+			(xy 44.45 80.01) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5452,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 48.26 81.28 0)
+		(at 44.45 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5418,7 +5460,7 @@
 		(dnp no)
 		(uuid "3cb7a3b5-c703-4bbc-83f2-2cf8f8afb71b")
 		(property "Reference" "#PWR_GND"
-			(at 48.26 87.63 0)
+			(at 44.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 85.852 0)
+			(at 44.45 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 48.26 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8265,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 74.422 50.038 90)
+			(at 74.676 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
